@@ -1,0 +1,17 @@
+ls - all the files and folder inside the current directory'
+cd - change directory then directory name or - (cd by is=tself will go to the root)
+cd.. - go back one level
+git status - give you the status of what code you have changes
+git add . - prepare for a commit, 
+git commit -m - commit with message, "quotes will be the message", 
+git push - adds code to master code
+git pull - gets master code
+git init - tells git hum what folder to pay attention to
+git checkout -b "the name of new branch" - make a new branch
+git checkout "name of branch" - switch branch
+
+notes:
+if file is read has not been added
+try.github.io
+~ means c drive
+never push from master or the outer most git folder
