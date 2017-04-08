@@ -36,25 +36,25 @@ create move function in view
 step 12) - done
 create move function in controller
 
-step 13)
+step 13) - done
 create onclick function that logs the coor of click
 
-step 14)
+step 14) - done
 accosiate the click with the appropreate square and call move function
 
-step 15) 
+step 15)  - done
 create a varity of terrian in model
 
-step 16)
+step 16) - done
 create the different bitmaps for view
 
-step 17)
+step 17) - done
 on create board display variety of terrians
 
-step 18)
+step 18) - done
 restrick movement based on terrian type;
 
-step 19) 
+step 19) - done 
 restrick movement speed based off of speed
 
 step 20)
