@@ -57,7 +57,22 @@ restrick movement based on terrian type;
 step 19) - done 
 restrick movement speed based off of speed
 
-step 20)
-create an actions countdown for soldier and when out of actions soldier cannot move
+step 20)- done 
+create an actions countdown for soldier 
+
+step 21) - done 
+create a reset soldier function
+
+step 22) - done 
+when player moves uses an actions and logs actions left 
+
+step 23) - done 
+create a soldier attack action that rolls d20 to hit uses action and logs actions left and dice roll 
+
+
+
+
+
+
 
 

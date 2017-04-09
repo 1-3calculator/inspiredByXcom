@@ -3,9 +3,16 @@ function Soldier(name){
 	this.name = name;
 	this.coor = [0,0];
 	this.speed = 6;
+	this.actions = 2;
 	
 	this.getCoor = function(){return this.coor;}
 	this.setCoor = function(coorArray){this.coor = coorArray;}
+	this.resetActions = function(){this.actions = 2;}
+	this.attack = function(){
+		this.actions--;
+		console.log("soldier has "+this.actions+" move left.")
+		return Math.ceil(Math.random()*20)
+	}
 }
 
 function Game(sizeOfBoardX,sizeOfBoardY){
@@ -35,6 +42,8 @@ function Game(sizeOfBoardX,sizeOfBoardY){
 		if(this.board[x][y] < 94){
 			if(distance(this.soldier.coor,coorArray)<this.soldier.speed){
 				this.soldier.setCoor(coorArray);
+				this.soldier.actions--;
+				console.log("soldier has "+this.soldier.actions+" move left.")
 				return true;
 			}	
 		}
